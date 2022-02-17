@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobile.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Регистрация" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Фамилия" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="FirtsName" Text=""></Entry>
+        <Label Text="Имя" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="LastName" Text=""></Entry>
+        <Label Text="Пасспорт" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="Passport" Text=""></Entry>
+        <Label Text="Номер телефона" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="Phone" Text=""></Entry>
+        <Label Text="Email" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="Email" Text=""></Entry>
+        <Label Text="Логин" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="Login" Text=""></Entry>
+        <Label Text="Пароль" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="Password" Text=""></Entry>
+
+
+        <Button Text="Регистрация" FontSize="16" Padding="30,0,30,0" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
